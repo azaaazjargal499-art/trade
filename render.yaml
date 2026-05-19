@@ -25,7 +25,7 @@ services:
       - key: FRONTEND_URL
         value: https://smart-inventory-web.onrender.com
       - key: BACKEND_URL
-        value: https://smart-inventory-api.onrender.com
+        value: https://smart-inventory-api-6xgn.onrender.com
       - key: GROQ_API_KEY
         sync: false
       - key: GOOGLE_CLIENT_ID
@@ -47,7 +47,7 @@ services:
       - key: NODE_VERSION
         value: 20
       - key: VITE_API_URL
-        value: https://smart-inventory-api.onrender.com/api
+        value: https://smart-inventory-api-6xgn.onrender.com/api
 
 databases:
   - name: smart-inventory-db
